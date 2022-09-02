@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.botao {
+  padding: 20px;
+  background: #6a63b6;
+  border-radius: 30px;
+  color: white;
+  transition: padding 0.5s;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+  font-family: 'roboto';
+}
+
+.botao:hover {
+  background: #7670af;
+  padding: 15px;
+  box-shadow: 4px 3px 2px 2px rgba(0, 0, 0, 0.2);
+  transition: padding 0.5s;
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: linear-gradient(
+    45deg,
+    rgb(226, 220, 220),
+    rgb(138, 132, 221)
+  );
+}
